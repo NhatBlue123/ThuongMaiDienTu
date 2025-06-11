@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài 1</title>
+  </head>
+  <body>
+    <!-- This is a block element -->
+    <p style="background-color: blue">IS 385</p>
+    <!-- This is an inline element -->
+    <span style="background-color: red">Ky Thuat Thuong Mai Dien Tu </span>
+
+    <h1>Tiêu Đề 1</h1>
+    <h2>Tiêu Đề 2</h2>
+    <h3>Tiêu Đề 2</h3>
+    <h4>Tiêu Đề 4</h4>
+    <h5>Tiêu Đề 5</h5>
+    <h6>Tiêu Đề 6</h6>
+
+    <a
+      style="font-family: 'Courier New', Courier, monospace; color: blue"
+      href="https://github.com/NhatBlue123"
+      target="_blank"
+      >This is my github</a
+    >
+
+    <!-- This is radio,checkbox and dropdownlist -->
+    <div style="margin-top: 20px; display: block;">
+      <input type="radio" name="1" checked id="" />This is JavaScript
+      <input type="radio" name="1" id="" /> This is Java
+      <input type="radio" name="1" id="" /> This is C++
+      <hr>
+      <input type="checkbox" name="" id="" /> Táo
+      <input type="checkbox" name="" id="" /> Cam
+      <input type="checkbox" name="" id="" /> Chuối
+    </div>
+
+    <div>
+        <table border="1">
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>Địa chỉ</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Nguyễn Văn A</td>
+                <td>20</td>
+                <td>Hà Nội</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Trần Thị B</td>
+                <td>22</td>
+                <td>Hồ Chí Minh</td>
+        </table>
+    </div>
+
+    <div>
+        <img src="https://img.tripi.vn/cdn-cgi/image/width=700,height=700/https://gcs.tripi.vn/public-tripi/tripi-feed/img/474071HNp/hinh-anh-cho-cuoi-hai-huoc_011137784.jpg" alt="anh cho" style="width: 200px; height: 200px; border-radius: 50%;" />
+        <p  style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;margin-left: 50px;">Đây là <span style="color: red; font-size: large;">BẢO</span> </p>
+    </div>
+
+    <button style="display: block">Click me</button>
+  </body>
+  <script>
+    // This is a comment in JavaScript
+    console.log("Hello, World!");
+
+    // Function to handle button click
+    document.querySelector("button").addEventListener("click", function () {
+      alert("Button was clicked!");
+    });
+  </script>
+</html>
